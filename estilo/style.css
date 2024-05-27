@@ -51,5 +51,8 @@ h2.titulos1{
     margin-bottom: 50px;
 }
 
-
+body {
+    border: 5px solid black;
+    max-width: 100%;
+}
 

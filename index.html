@@ -87,7 +87,7 @@
                 <img class="qMaasdam" src="img/queso.avif" alt="Queso Maasdam">
             </div>
         </section>
-        <section class="container-fluid">
+        <section class="container-fluid w-100">
             <h3>Nuestra Historia</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque recusandae, a cumque, labore, quisquam
                 error corporis id sapiente enim repellat commodi. Obcaecati veniam unde molestias voluptates, dolorum
@@ -105,16 +105,26 @@
                 quod atque totam provident consectetur quaerat temporibus, architecto officiis pariatur nemo nobis animi
                 quia quasi harum incidunt beatae.</p>
         </section>
-        <section class="container-fluid">
+        <section class="container-fluid w-100">
             <h4>Contactanos!</h4>
-            <form action="" method="post"></form>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione quas reprehenderit minus impedit
                 voluptas enim facilis, sunt, molestias, atque officia laboriosam soluta doloremque sequi doloribus
                 similique molestiae vel. Vitae, illum.</p>
+            <div>
+                <form class="d-flex flex-column" action="text" method="post">
+                    <label for="name">Nombre Completo</label>
+                    <input type="text" name="name" placeholder="Nombre completo">
+                    <label for="email">Correo Electronico</label>
+                    <input type="email" placeholder="Igrese su email">
+                    <label for="post">Deje su mensaje</label>
+                    <textarea name="message" id="mensaje-enviado"></textarea>
+                    <input type="submit" value="Enviar consulta">
+                </form>
+            </div>
         </section>
 
     </main>
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
