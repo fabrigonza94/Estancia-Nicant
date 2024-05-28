@@ -54,10 +54,11 @@ h2.titulos1{
 body {
     border: 5px solid black;
     max-width: 100%;
+    overflow-x: hidden;
+}
+.space{
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
-.form{
-    display: flex;
-    width: 50rem;
-    justify-content: center;
-}
