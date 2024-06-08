@@ -186,20 +186,40 @@ h1 {
     display: flex;
     display: inline-block;
     background-color: rgb(241, 241, 161);
-}
-
-.img-historia {
-    display: flex;
     width: 100%;
     justify-content: center;
 }
 
-.img-historia img {
-    width: 70%;
-    height: auto;
-    opacity: 0.5;
+.img-historia {
+   position: relative;
+   display: flex;
+   justify-content: center;
 }
-
+.text-overlay{
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(236, 232, 232);
+    font-size: 2.5rem;
+}
+.img-fondo {
+    width: 70%; 
+    height: auto;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+.p-historia{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    padding: 20px;
+}
 .tittle-historia {
     display: flex;
     justify-content: center;
