@@ -235,6 +235,9 @@ h1 {
     display: flex;
     display: inline-block;
     width: 100%;
+    height: max-content;
+    background-color: rgb(231, 231, 135);
+    padding-bottom: 2rem;
 
 }
 .h2-productos{
@@ -258,7 +261,7 @@ h1 {
 }
 
 .colonia {
-    background-color: rgb(204, 204, 116);
+    background-color: rgb(231, 231, 135);
 }
 
 .qEmmental {
@@ -269,7 +272,7 @@ h1 {
 }
 
 .emmental {
-    background-color: rgb(131, 131, 114);
+    background-color: rgb(231, 231, 135);
 }
 
 .qMaasdam {
@@ -280,7 +283,7 @@ h1 {
 }
 
 .maasdam {
-    background-color: rgb(204, 204, 116);
+    background-color: rgb(231, 231, 135);
 }
 
 h2.titulos {
@@ -294,7 +297,10 @@ h2.titulos1 {
     margin-bottom: 50px;
     font-family: "Roboto", sans-serif;
 }
-
+/*Comienza contactos*/
+.sec-contacto{
+    background-color: rgb(241, 241, 161);
+}
 /*comienza form*/
 .space {
     padding-bottom: 1rem;
@@ -306,7 +312,7 @@ h2.titulos1 {
 label {
     font-size: 1.5rem;
     text-align: center;
-    background-color: rgb(204, 204, 116);
+    background-color: rgb(231, 231, 135);
     margin-bottom: 0.5rem;
     font-family: "Roboto", sans-serif;
 }
@@ -314,7 +320,7 @@ label {
 .bottom {
     margin-bottom: 2rem;
     padding: 1.5rem;
-    background-color: rgb(204, 204, 116);
+    background-color: rgb(231, 231, 135);
     border-radius: 0.5rem;
     font-family: "Roboto", sans-serif;
 }
