@@ -231,6 +231,7 @@ h1 {
 
 /*Termina nuestra historia*/
 /*comienza section productos*/
+
 .sec-productos{
     display: flex;
     display: inline-block;
@@ -255,7 +256,7 @@ h1 {
 }
 .qColonia {
     width: 50%;
-    height: auto;
+    height: 100%;
     border-radius: 400px;
     padding-left: 50px;
 }
@@ -273,6 +274,7 @@ h1 {
 
 .emmental {
     background-color: rgb(231, 231, 135);
+    margin: none;
 }
 
 .qMaasdam {
@@ -301,26 +303,37 @@ h2.titulos1 {
 .sec-contacto{
     background-color: rgb(241, 241, 161);
 }
+.h4-contacto{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.p-contacto{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-size: 1.8rem;
+}
 /*comienza form*/
 .space {
     padding-bottom: 1rem;
     margin-bottom: 1rem;
     align-items: center;
     font-family: "Roboto", sans-serif;
+    border: none;
+    height: 6rem;
 }
-
-label {
-    font-size: 1.5rem;
-    text-align: center;
-    background-color: rgb(231, 231, 135);
-    margin-bottom: 0.5rem;
-    font-family: "Roboto", sans-serif;
-}
-
 .bottom {
     margin-bottom: 2rem;
     padding: 1.5rem;
     background-color: rgb(231, 231, 135);
     border-radius: 0.5rem;
     font-family: "Roboto", sans-serif;
+    border: none;
+}
+.text-area{
+    height: 20rem;
 }
