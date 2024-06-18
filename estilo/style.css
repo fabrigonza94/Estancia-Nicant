@@ -262,8 +262,8 @@ h1 {
 }
 
 .qColonia {
-    width: 50%;
-    height: 100%;
+    width: 35%;
+    height: auto;
     border-radius: 400px;
     padding-left: 50px;
 }
@@ -273,9 +273,9 @@ h1 {
 }
 
 .qEmmental {
-    width: 50%;
+    width: 35%;
     height: auto;
-    border-radius: 400px;
+    border-radius: 50px;
     padding-right: 50px;
 }
 
@@ -285,7 +285,7 @@ h1 {
 }
 
 .qMaasdam {
-    width: 50%;
+    width: 35%;
     height: auto;
     border-radius: 400px;
     padding-left: 50px;
