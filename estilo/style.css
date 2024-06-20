@@ -41,7 +41,8 @@ h1 {
 }
 
 .inicio {
-    background-image: url(../img/flat-lay-gourmet-cheese-mix-with-copy-space.jpg);
+    background-attachment: scroll;
+    background-image: url(../img/banner.jpg);
     background-size: cover;
     background-position: center 75%;
     height: 100vh;
@@ -88,11 +89,12 @@ h1 {
 .barra {
     padding-top: 1rem;
     height: 10rem;
-    background-color: rgb(136, 133, 133);
+    background-color: rgb(236, 231, 231);
     max-width: 100%;
     position: sticky;
     top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 0px 20px 20px rgb(236, 231, 231);
 }
 
 .mobile-menu img {
