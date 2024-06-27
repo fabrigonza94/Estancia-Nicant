@@ -294,78 +294,60 @@ h1 {
 
 /*Termina nuestra historia*/
 /*comienza section productos*/
-
-.sec-productos {
+.seccion-colonia{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 50%;
+}
+.colonia{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+}
+.cont-colonia{
     display: flex;
     display: inline-block;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 50%;
+}
+.img-colonia {
+    width: 50%;
+}
+.qColonia{
     width: 100%;
-    height: max-content;
-    background-color: rgb(231, 231, 135);
-    padding-bottom: 2rem;
-
+    height: 100vh;
 }
-
-.h2-productos {
+/*EMMENTHAL*/
+.seccion-emmenthal{
     display: flex;
     justify-content: center;
-    font-size: 4rem;
-    font-weight: bolder;
-    height: 10rem;
-    margin-top: 5rem;
+    height: 100vh;
+    width: 50%;
 }
-
-.p-productos {
+.emmenthal{
     display: flex;
     justify-content: center;
-    font-size: 2rem;
+    flex-direction: row-reverse;
+    height: 70%;
 }
-
-.qColonia {
-    width: 35%;
-    height: auto;
-    border-radius: 400px;
-    padding-left: 50px;
+.cont-emmenthal{
+    display: flex;
+    display: inline-block;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 50%;
 }
-
-.colonia {
-    background-color: rgb(231, 231, 135);
+.img-emmenthal {
+    width: 50%;
 }
-
-.qEmmental {
-    width: 35%;
-    height: auto;
-    border-radius: 50px;
-    padding-right: 50px;
+.qEmmenthal{
+    width: 100%;
+    height: 100vh;
 }
-
-.emmental {
-    background-color: rgb(231, 231, 135);
-    margin: none;
-}
-
-.qMaasdam {
-    width: 35%;
-    height: auto;
-    border-radius: 400px;
-    padding-left: 50px;
-}
-
-.maasdam {
-    background-color: rgb(231, 231, 135);
-}
-
-h2.titulos {
-    margin-left: 200px;
-    margin-bottom: 50px;
-    font-family: "Roboto", sans-serif;
-}
-
-h2.titulos1 {
-    padding-right: 250px;
-    margin-bottom: 50px;
-    font-family: "Roboto", sans-serif;
-}
-
 /*Comienza contactos*/
 .sec-contacto {
     background-color: rgb(241, 241, 161);
