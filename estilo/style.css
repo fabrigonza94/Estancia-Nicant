@@ -294,6 +294,21 @@ h1 {
 
 /*Termina nuestra historia*/
 /*comienza section productos*/
+.sec-productos{
+    display: flex;
+    justify-content: center;
+    display: inline;
+    align-items: center;
+    text-align: center;
+}
+.h2-productos{
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+.p-productos{
+    font-size: 2rem;
+    margin-bottom: 10rem;
+}
 .seccion-colonia{
     display: flex;
     justify-content: center;
@@ -319,6 +334,7 @@ h1 {
 .qColonia{
     width: 100%;
     height: 100vh;
+    border-radius: 10px;
 }
 /*EMMENTHAL*/
 .seccion-emmenthal{
@@ -347,6 +363,7 @@ h1 {
 .qEmmenthal{
     width: 100%;
     height: 100vh;
+    border-radius: 10px;
 }
 /*Comienza contactos*/
 .sec-contacto {
